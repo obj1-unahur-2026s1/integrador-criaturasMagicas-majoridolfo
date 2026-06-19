@@ -83,3 +83,5 @@ class LosCastillos{
   method poderDefensivo(){return 200 * colonia.habitantes().count({h=>h.esFormidable()})}
   method serConquistado(otraColonia){colonia = otraColonia}
 }
+
+class Colonias{}
